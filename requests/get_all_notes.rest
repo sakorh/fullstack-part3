@@ -1,7 +1,3 @@
-POST http://localhost:3001/api/persons
-Content-Type: application/json
+//DELETE https://whispering-hollows-89852.herokuapp.com/api/people/2754
 
-{
-    "name": "new name",
-    "number": "12345"
-}
+DELETE https://whispering-hollows-89852.herokuapp.com/api/people/9864
