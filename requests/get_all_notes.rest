@@ -1,3 +1,6 @@
 //DELETE https://whispering-hollows-89852.herokuapp.com/api/people/2754
 
-DELETE https://whispering-hollows-89852.herokuapp.com/api/people/9864
+//DELETE https://whispering-hollows-89852.herokuapp.com/api/people/61c328e15fa1c3832c083ae5
+
+
+delete http://localhost:3001/api/people/61c328e15fa1c3832c083ae5
