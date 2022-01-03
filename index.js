@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 require('dotenv').config()
 const express = require('express')
 const morgan = require('morgan')
@@ -25,8 +24,7 @@ app.get('/api/people', (req, res) => {
 app.get('/info', (req, res, next) => {
   Person.find({}).then(people => {
     if (people) {
-      info = `Phonebook has info for ${people.length} people<br>${new Date()}`
-      res.send(info)
+      res.send(`Phonebook has info for ${people.length} people<br>${new Date()}`)
     } else {
       res.status(404).end()
     }
